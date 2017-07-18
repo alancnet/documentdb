@@ -10,7 +10,7 @@ const connect = (config) => new Promise((resolve, reject) => {
   resolve({
     client,
     url,
-    close: () => client.cancel()
+    close: () => {}
   })
 })
 
